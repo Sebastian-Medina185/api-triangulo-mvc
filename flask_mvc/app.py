@@ -1,6 +1,7 @@
 # Importaciones necesarias
 from flask import Flask, render_template, request
-from models.triangulo import calcular_triangulo
+from .models.triangulo import calcular_triangulo
+
 
 # Inicialización de la aplicación
 app = Flask(__name__)
